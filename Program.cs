@@ -12,7 +12,7 @@ namespace iSMAControlli
             Console.ReadKey();
         }
 
-        public static bool IsNumberDevideByTwo(int someNumber)
+        static bool IsNumberDevideByTwo(int someNumber)
         {
             if(someNumber % 2 == 0)
             {
